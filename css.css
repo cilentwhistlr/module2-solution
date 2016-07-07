@@ -1,3 +1,5 @@
+/* Base Style */
+
 * {
 	font-family: sans-serif;
 	box-sizing: border-box;
@@ -8,9 +10,17 @@ h1 {
 	text-align: center;
 }
 
+#header_f, #header_s, #header_t {
+	text-align: right;
+	margin: 0;
+	border: 10px solid black;
+	padding: 10px;
+	background-color: linen;
+}
+
 #first {
 	width: 30%;
-	border: 5px solid red;
+	border: 10px solid red;
 	padding: 10px;
 	float: left;
 	margin: 10px;
@@ -18,7 +28,7 @@ h1 {
 
 #second {
 	width: 30%;
-	border: 5px solid green;
+	border: 10px solid green;
 	padding: 10px;
 	float: left;
 	margin: 10px;
@@ -26,8 +36,54 @@ h1 {
 
 #third {
 	width: 30%;
-	border: 5px solid blue;
+	border: 10px solid blue;
 	padding: 10px;
 	float: left;
 	margin: 10px;
+}
+
+
+/* Mobile Style */
+
+@media (max-width: 800px) {
+
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+h1 {
+	text-align: center;
+}
+
+#header_f, #header_s, #header_t {
+	text-align: right;
+	margin: 0;
+	border: 10px solid black;
+	padding: 10px;
+	background-color: linen;
+}
+
+#first {
+	width: 80%;
+	border: 10px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+
+#second {
+	width: 80%;
+	border: 10px solid green;
+	padding: 10px;
+	margin: 10px;
+}
+
+#third {
+	width: 80%;
+	border: 10px solid blue;
+	padding: 10px;
+	margin: 10px;
+}
+
 }
