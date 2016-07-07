@@ -1,4 +1,33 @@
-h1{
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+h1 {
 	text-align: center;
-	font-family: Consolas;
+}
+
+#first {
+	width: 30%;
+	border: 5px solid red;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+#second {
+	width: 30%;
+	border: 5px solid green;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+#third {
+	width: 30%;
+	border: 5px solid blue;
+	padding: 10px;
+	float: left;
+	margin: 10px;
 }
